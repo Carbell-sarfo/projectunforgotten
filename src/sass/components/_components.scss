@@ -1,0 +1,24 @@
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    border: solid 3px transparent;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.205);
+    @include ease;
+
+    &:hover, &:focus {
+        transform: translateY(-3px) scale(1.05);
+    }
+}
+
+.btn-orange {
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    border: solid 3px var(--clr-white);
+
+    &:hover, &:focus {
+        color: var(--clr-orange);
+        background-color: var(--clr-white);
+        border: solid 3px var(--clr-orange);
+    }
+}

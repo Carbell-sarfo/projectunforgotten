@@ -1,0 +1,45 @@
+{% set currentUrl %}{{ page.url }}{% endset %}
+
+ <div class="nav-overlay"></div>
+
+<nav class="nav-bar" id="nav-bar">
+  <div class="container wrapper">
+
+    <div class="nav-container">
+      <!-- LOGO -->
+      <a href="/" class="logo">
+        <img src="/assets/logo.png" alt="project Unforgotten" class="logo-img">
+      </a>
+  
+      <!-- nav-list -->
+      <ul role="list" class="nav-list">
+        <li class="nav-item">
+          <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/" class="nav-link">Home</a>
+        </li>
+    
+        {% for page in collections.pages %}
+        <li class="nav-item">
+          <a 
+            {% if currentUrl === page.url %}aria-current="page"{% endif %} 
+            href="{{ page.url }}" class="nav-link">
+              {{ page.data.title }}
+          </a>
+        </li>
+        {%- endfor %}
+        <li class="nav-item">
+          <a href="#contact-form" class="nav-link">Contact Us</a>
+        </li>
+        
+        {# DONATE BUTTON #}
+        <a href="#" class="btn btn-orange">Donate</a>
+      </ul>
+      
+  <!-- navigation Button -->
+      <div class="nav-btn">
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+      </div>
+    </div>
+  </div>
+</nav>

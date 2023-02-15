@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/5t3ph/11ty-sass-skeleton.git"
+    "url": "https://github.com/Carbell-sarfo/Project-Unforgottent"
   },
-  "author": "5t3ph",
+  "author": "Carbell-Sarfo",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-canary.25",

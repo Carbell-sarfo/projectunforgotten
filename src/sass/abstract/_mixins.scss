@@ -1,3 +1,10 @@
 @mixin ease {
     transition: ease .4s;
 }
+
+
+
+// utilities
+.mb-20 {
+    margin-bottom: 2rem;
+}

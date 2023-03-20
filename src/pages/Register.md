@@ -2,4 +2,4 @@
 title: Page Two
 ---
 
-This is the second page.
+This is the Register Page

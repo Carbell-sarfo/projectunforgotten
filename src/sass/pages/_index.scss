@@ -1,0 +1,73 @@
+.section-hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, rgba(255, 98, 0, 0.8), rgba(255, 98, 0, 0.8)), url(/assets/hero.png);
+    background-image: linear-gradient(to right red, green);
+    color: var(--clr-white);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 50% 100%, 0 75vh);
+    background-position: top;
+    background-attachment: fixed;
+
+    h1 {
+        line-height: 1;
+        font-size: 7rem;
+    }
+
+    p {
+        padding: 0 30rem;
+        margin: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// =====================================================
+                    //  Media Queries
+// ====================================================
+@media screen and (min-width: 769px) {
+ 
+}
+
+
+@media screen and (min-width: 1023px) {
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .section-hero {
+
+        p {
+            padding-inline: 0;
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+
+    
+}
+
+
+@media screen and (max-width: 325px) {
+ 
+
+}

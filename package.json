@@ -1,6 +1,6 @@
 {
-  "name": "11ty-sass-skeleton",
-  "version": "2.1.0",
+  "name": "WLIAfrica",
+  "version": "2.0.0",
   "description": "Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.",
   "main": "index.html",
   "scripts": {
@@ -13,16 +13,16 @@
     "build": "npm-run-all build:sass build:eleventy"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/Carbell-sarfo/Project-Unforgottent"
+    "type": "git"
   },
-  "author": "Carbell-Sarfo",
+  "author": "Carbell Sarfo",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.25",
-    "lightningcss-cli": "^1.18.0",
+    "@11ty/eleventy": "^1.0.2",
+    "cross-env": "^7.0.3",
+    "lightningcss-cli": "^1.15.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.57.1"
+    "sass": "^1.54.9"
   },
   "browserslist": [
     "> 0.25%",

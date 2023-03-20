@@ -14,18 +14,14 @@
       <!-- nav-list -->
       <ul role="list" class="nav-list">
         <li class="nav-item">
-          <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/" class="nav-link">Home</a>
+          <a href="/" class="nav-link">Home</a>
         </li>
-    
-        {% for page in collections.pages %}
         <li class="nav-item">
-          <a 
-            {% if currentUrl === page.url %}aria-current="page"{% endif %} 
-            href="{{ page.url }}" class="nav-link">
-              {{ page.data.title }}
-          </a>
+          <a href="/faq" class="nav-link">FAQs</a>
         </li>
-        {%- endfor %}
+        <li class="nav-item">
+          <a href="/register" class="nav-link">Register</a>
+        </li>
         <li class="nav-item">
           <a href="#contact-form" class="nav-link">Contact Us</a>
         </li>

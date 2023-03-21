@@ -10,3 +10,9 @@ h1 {
   width: fit-content;
   margin-inline: auto;
 }
+
+
+// Pages
+@import "pages/index";
+@import "pages/faqs";
+@import "pages/register";

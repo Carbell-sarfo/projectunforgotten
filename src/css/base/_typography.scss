@@ -1,0 +1,31 @@
+.purple-text {
+    color: var(--clr-purple);
+}
+
+.heading-secondary {
+    display: inline-block;
+    position: relative;
+
+    &::after {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 5px;
+        background-color: var(--clr-orange);
+        position: absolute;
+        right: -35px;
+        bottom: 0;
+        transform: translateY(-13px);
+    }
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 5px;
+        background-color: var(--clr-purple);
+        position: absolute;
+        right: -45px;
+        bottom: 0;
+        transform: translateY(-13px);
+    }
+}

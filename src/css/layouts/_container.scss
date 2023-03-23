@@ -1,0 +1,69 @@
+
+// ========== Container =============
+.container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 2580px;
+    height: 100%;
+}
+.wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#hero {
+    padding-top: 12rem;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem 1rem;
+    align-items: center;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem 1rem;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 3rem 1rem;
+}
+
+
+
+
+
+
+
+// ======= Media Queries =======
+@media (min-width: 768px) {
+    .wrapper {
+        padding-right: 64px;
+        padding-left: 64px;
+    }
+
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .col-2,
+    .col-3,
+    .col-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .col-2 {
+        gap: 5rem 0;
+    }
+}
+
+
+

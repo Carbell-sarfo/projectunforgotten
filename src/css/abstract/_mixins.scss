@@ -1,0 +1,18 @@
+@mixin ease {
+    transition: ease .4s;
+}
+
+
+
+// utilities
+.mb-20 {
+    margin-bottom: 2rem;
+}
+.mb-50 {
+    margin-bottom: 5rem;
+}
+
+// center text
+.text-center {
+    text-align: center;
+}
